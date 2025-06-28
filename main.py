@@ -9,12 +9,12 @@ output_folder = Path("output")
 # Create output folder if it doesn't exist
 output_folder.mkdir(parents=True, exist_ok=True)
 
-# Register HEIF/HEIC plugin
+# Register HEIF plugin
 pillow_heif.register_heif_opener()
 
 # Loop through all files in the input folder
 for file in input_folder.iterdir():
-    if file.is_file() and file.suffix.lower() in [".heif", ".heic"]:
+    if file.is_file() and file.suffix.lower() in [".heif"]:
         try:
             # Open and convert to PNG
             img = Image.open(file)
