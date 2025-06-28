@@ -3,7 +3,7 @@ from PIL import Image
 import pillow_heif
 
 # Input and output folder paths
-input_folder = Path("input/tour pics")  # Replace with your actual folder path
+input_folder = Path("input")  # Replace with your actual folder path
 output_folder = Path("output")
 
 # Create output folder if it doesn't exist
