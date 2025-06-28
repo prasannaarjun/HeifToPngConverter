@@ -10,7 +10,7 @@ This Python script converts all `.heif` and `.heic` image files in a specified i
 project-directory/
 ├── input/              # Place your .heif or .heic files here
 ├── output/             # Converted .png files will be saved here
-├── convert_heif_to_png.py
+├── main.py
 ├── README.md
 ```
 
